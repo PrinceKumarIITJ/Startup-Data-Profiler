@@ -31,15 +31,15 @@ cd startup-data-profiler
 
 ###  2. Create and activate virtual environment
 
- Create virtual environment
+ - **Create virtual environment**
 ```
 python -m venv venv
 ```
-Activate (Windows)
+- **Activate (Windows)**
 ```
 venv\Scripts\activate
 ```
- Activate (macOS/Linux)
+ - **Activate (macOS/Linux)**
 ```
 source venv/bin/activate
 ```
@@ -51,20 +51,20 @@ pip install -r requirements.txt
 ---
 
 ###  How to Run the Project
- Step 1: Run the scraper
+ - Step 1: Run the scraper
 ```
 python scraper.py
 ```
- Step 2: Clean the data and generate visualizations
+ - Step 2: Clean the data and generate visualizations
 ```
 python cleanser.py
 ```
- Step 3: Start the FastAPI server
+ - Step 3: Start the FastAPI server
 ```
 uvicorn app:app --reload
 ```
 ---
-Then go to:
+**Then go to:**
 
 http://127.0.0.1:8000/docs for Swagger UI
 
@@ -91,13 +91,13 @@ http://127.0.0.1:8000/summary to see the summary data
 ---
 
 ###  Output Files
-data/startups_raw.csv — Raw scraped data
+- data/startups_raw.csv — Raw scraped data
 
-data/startups_clean.csv — Cleaned & formatted data
+- data/startups_clean.csv — Cleaned & formatted data
 
-visuals/*.png — Distribution plots
+- visuals/*.png — Distribution plots
 
-visuals/summary.txt — Summary stats
+- visuals/summary.txt — Summary stats
 
 ---
 
@@ -123,8 +123,10 @@ cloudscraper
 ###  Author
 Prince Kumar
 
-Departmen t of CSE, IIT Jodhpur
+Department of CSE, IIT Jodhpur
 
 ---
 ###  License
 This project is for academic/demo purposes only.
+
+--
